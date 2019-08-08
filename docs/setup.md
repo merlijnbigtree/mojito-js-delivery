@@ -118,7 +118,7 @@ With these files defined, the gulp builder will construct an experiment object r
 
 ## Experiment shared code
 
-JS and CSS can have a shared scope within an experiment. E.g. two treatment variants might have some stying commonalities. We can cut down on repeated code by sharing common elements.
+JS and CSS can have a shared scope within an experiment. E.g. two treatment variants might have some styling commonalities. We can cut down on repeated code by sharing common elements.
 
 ### Experiment shared JS
 
@@ -153,7 +153,7 @@ recipes:
   0:
     name: Control
   1:
-    name: Treatment2
+    name: Treatment1
     js: treatment1.js
   2:
     name: Treatment2
@@ -215,7 +215,7 @@ recipes:
   0:
     name: Control
   1:
-    name: Treatment2
+    name: Treatment1
     js: treatment1.js
   2:
     name: Treatment2
